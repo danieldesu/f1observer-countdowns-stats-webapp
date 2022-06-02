@@ -1,0 +1,281 @@
+[
+  {
+    "fullName": "Lewis Hamilton",
+    "lastName": "hamilton",
+    "team": "mercedes",
+    "country": "United Kingdom",
+    "driverNumber": 44,
+    "championships": 7,
+    "careerWins": 103,
+    "careerPoles": 103,
+    "seasonPoints": 50,
+    "seasonWins": 0,
+    "seasonPoles": 0
+  },
+
+  {
+    "fullName": "George Russell",
+    "lastName": "russell",
+    "team": "mercedes",
+    "country": "United Kingdom",
+    "driverNumber": 63,
+    "championships": 0,
+    "careerWins": 0,
+    "careerPoles": 0,
+    "seasonPoints": 84,
+    "seasonWins": 0,
+    "seasonPoles": 0
+  },
+
+  {
+    "fullName": "Max Verstappen",
+    "lastName": "verstappen",
+    "team": "redbull",
+    "country": "Netherlands",
+    "driverNumber": 33,
+    "championships": 1,
+    "careerWins": 24,
+    "careerPoles": 14,
+    "seasonPoints": 125,
+    "seasonWins": 4,
+    "seasonPoles": 1
+  },
+
+  {
+    "fullName": "Sergio Pérez",
+    "lastName": "perez",
+    "team": "redbull",
+    "country": "Mexico",
+    "driverNumber": 11,
+    "championships": 0,
+    "careerWins": 3,
+    "careerPoles": 1,
+    "seasonPoints": 110,
+    "seasonWins": 1,
+    "seasonPoles": 1
+  },
+
+  {
+    "fullName": "Charles Leclerc",
+    "lastName": "leclerc",
+    "team": "ferrari",
+    "country": "Monaco",
+    "driverNumber": 16,
+    "championships": 0,
+    "careerWins": 4,
+    "careerPoles": 14,
+    "seasonPoints": 116,
+    "seasonWins": 2,
+    "seasonPoles": 5
+  },
+
+  {
+    "fullName": "Carlos Sainz Jr",
+    "lastName": "sainz",
+    "team": "ferrari",
+    "country": "Spain",
+    "driverNumber": 55,
+    "championships": 0,
+    "careerWins": 0,
+    "careerPoles": 0,
+    "seasonPoints": 83,
+    "seasonWins": 0,
+    "seasonPoles": 0
+  },
+
+  {
+    "fullName": "Lando Norris",
+    "lastName": "norris",
+    "team": "mclaren",
+    "country": "United Kingdom",
+    "driverNumber": 4,
+    "championships": 0,
+    "careerWins": 0,
+    "careerPoles": 1,
+    "seasonPoints": 48,
+    "seasonWins": 0,
+    "seasonPoles": 0
+  },
+
+  {
+    "fullName": "Daniel Ricciardo",
+    "lastName": "ricciardo",
+    "team": "mclaren",
+    "country": "Australia",
+    "driverNumber": 3,
+    "championships": 0,
+    "careerWins": 8,
+    "careerPoles": 3,
+    "seasonPoints": 11,
+    "seasonWins": 0,
+    "seasonPoles": 0
+  },
+
+  {
+    "fullName": "Fernando Alonso",
+    "lastName": "alonso",
+    "team": "alpine",
+    "country": "Spain",
+    "driverNumber": 14,
+    "championships": 2,
+    "careerWins": 32,
+    "careerPoles": 22,
+    "seasonPoints": 10,
+    "seasonWins": 0,
+    "seasonPoles": 0
+  },
+
+  {
+    "fullName": "Esteban Ocon",
+    "lastName": "ocon",
+    "team": "alpine",
+    "country": "France",
+    "driverNumber": 31,
+    "championships": 0,
+    "careerWins": 1,
+    "careerPoles": 0,
+    "seasonPoints": 30,
+    "seasonWins": 0,
+    "seasonPoles": 0
+  },
+
+  {
+    "fullName": "Pierre Gasly",
+    "lastName": "gasly",
+    "team": "alphatauri",
+    "country": "France",
+    "driverNumber": 10,
+    "championships": 0,
+    "careerWins": 1,
+    "careerPoles": 0,
+    "seasonPoints": 6,
+    "seasonWins": 0,
+    "seasonPoles": 0
+  },
+
+  {
+    "fullName": "Yuki Tsunoda",
+    "lastName": "tsunoda",
+    "team": "alphatauri",
+    "country": "Japan",
+    "driverNumber": 22,
+    "championships": 0,
+    "careerWins": 0,
+    "careerPoles": 0,
+    "seasonPoints": 11,
+    "seasonWins": 0,
+    "seasonPoles": 0
+  },
+
+  {
+    "fullName": "Sebastian Vettel",
+    "lastName": "vettel",
+    "team": "astonmartin",
+    "country": "Germany",
+    "driverNumber": 5,
+    "championships": 4,
+    "careerWins": 53,
+    "careerPoles": 57,
+    "seasonPoints": 5,
+    "seasonWins": 0,
+    "seasonPoles": 0
+  },
+
+  {
+    "fullName": "Lance Stroll",
+    "lastName": "stroll",
+    "team": "astonmartin",
+    "country": "Canada",
+    "driverNumber": 18,
+    "championships": 0,
+    "careerWins": 0,
+    "careerPoles": 1,
+    "seasonPoints": 2,
+    "seasonWins": 0,
+    "seasonPoles": 0
+  },
+
+  {
+    "fullName": "Alexander Albon",
+    "lastName": "albon",
+    "team": "williams",
+    "country": "Thailand",
+    "driverNumber": 23,
+    "championships": 0,
+    "careerWins": 0,
+    "careerPoles": 0,
+    "seasonPoints": 3,
+    "seasonWins": 0,
+    "seasonPoles": 0
+  },
+
+  {
+    "fullName": "Nicholas Latifi",
+    "lastName": "latifi",
+    "team": "williams",
+    "country": "Canada",
+    "driverNumber": 6,
+    "championships": 0,
+    "careerWins": 0,
+    "careerPoles": 0,
+    "seasonPoints": 0,
+    "seasonWins": 0,
+    "seasonPoles": 0
+  },
+
+  {
+    "fullName": "Valtteri Bottas",
+    "lastName": "bottas",
+    "team": "alfaromeo",
+    "country": "Finland",
+    "driverNumber": 77,
+    "championships": 0,
+    "careerWins": 10,
+    "careerPoles": 20,
+    "seasonPoints": 40,
+    "seasonWins": 0,
+    "seasonPoles": 0
+  },
+
+  {
+    "fullName": "Guanyu Zhou",
+    "lastName": "zhou",
+    "team": "alfaromeo",
+    "country": "China",
+    "driverNumber": 24,
+    "championships": 0,
+    "careerWins": 0,
+    "careerPoles": 0,
+    "seasonPoints": 1,
+    "seasonWins": 0,
+    "seasonPoles": 0
+  },
+
+  {
+    "fullName": "Mick Schumacher",
+    "lastName": "schumacher",
+    "team": "haas",
+    "country": "Germany",
+    "driverNumber": 47,
+    "championships": 0,
+    "careerWins": 0,
+    "careerPoles": 0,
+    "seasonPoints": 0,
+    "seasonWins": 0,
+    "seasonPoles": 0
+  },
+
+  {
+    "fullName": "Kevin Magnussen",
+    "lastName": "magnussen",
+    "team": "haas",
+    "country": "Denmark",
+    "driverNumber": 20,
+    "championships": 0,
+    "careerWins": 0,
+    "careerPoles": 0,
+    "seasonPoints": 15,
+    "seasonWins": 0,
+    "seasonPoles": 0
+  }
+]

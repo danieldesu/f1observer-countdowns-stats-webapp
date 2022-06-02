@@ -1,0 +1,84 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F1observer.com</title>
+    <link rel="icon" href="./img/favicon.ico" />
+    <meta
+      name="description"
+      content="Formula 1 race, qualifying and sprint live countdowns; driver standings and stats including season wins, pole positions and points as well as career stats."
+    />
+    <meta
+      name="keywords"
+      content="formula 1, f1 race countdown, f1 qualifying countdown, f1 standings, formula 1 countdown, f1 when is race, lewis hamilton, max verstappen, daniel ricciardo, points, wins, poles, championships, drivers, teams, f1 list, formula 1 championship points standings, 2022, 2023, 2024"
+    />
+    <meta name="author" content="Daniel Desu" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Countdowns -->
+
+    <div class="countdowns">
+      <h2 id="countdowns-event"></h2>
+      <div class="qualifying-countdown">
+        <span id="countdown-header">Qualifying in:</span>
+        <span id="qualifying-days"></span>
+        <span id="qualifying-hours"></span>
+        <span id="qualifying-mins"></span>
+        <span id="qualifying-secs"></span>
+      </div>
+      <div class="sprint-countdown">
+        <span id="countdown-header"></span>
+        <span id="sprint-days"></span>
+        <span id="sprint-hours"></span>
+        <span id="sprint-mins"></span>
+        <span id="sprint-secs"></span>
+      </div>
+      <div class="race-countdown">
+        <span id="countdown-header">Race in:</span>
+        <span id="race-days"></span>
+        <span id="race-hours"></span>
+        <span id="race-mins"></span>
+        <span id="race-secs"></span>
+      </div>
+    </div>
+
+    <!-- Driver Grid -->
+
+    <div class="drivers-container"></div>
+
+    <!-- End of Driver Grid -->
+
+    <!-- Fetching from API -->
+
+    <div class="fetch-container">
+      <h2>Curious about past seasons? Get final standings below</h2>
+      <span>Using the Ergast API</span>
+
+      <form>
+        <input
+          type="number"
+          name="season"
+          placeholder="Year since 1950..."
+          autocomplete="off"
+          min="1950"
+          max="2021"
+        />
+      </form>
+
+      <p id="info" class="d-none"></p>
+      <!-- Displaying fetched data -->
+      <div class="output"></div>
+    </div>
+
+    <div class="footer">
+      <p>Made by Daniel Desu</p>
+      <a href="https://www.buymeacoffee.com/danieldesu" target="_blank"
+        >You can Buy Me a Coffee</a
+      >
+    </div>
+
+    <script src="./bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,280 @@
+html {
+  background-color: #18181b;
+  font-size: 16px;
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Helvetica", sans-serif;
+  color: white;
+  background-color: #18181b;
+}
+
+.d-none {
+  display: none;
+}
+
+/* countdowns */
+
+.countdowns {
+  text-align: center;
+  background-color: #18181b;
+  border-bottom: 1px solid #303032;
+  padding-bottom: 20px;
+}
+
+#countdowns-event {
+  margin: 10px auto 4px auto;
+}
+
+#countdown-header {
+  text-align: right;
+  width: 100px;
+  display: inline-block;
+}
+
+.timer-number {
+  color: rgb(206, 79, 79);
+}
+
+/* end of countdowns */
+
+/* driver grid display */
+
+.drivers-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  grid-gap: 20px;
+  text-align: center;
+  background-color: #0e0e10;
+  padding: 20px 0 80px 0;
+}
+
+.drivers-container-item {
+  background-color: #18181b;
+  width: 500px;
+  height: 200px;
+  border: 1px solid #303032;
+  display: flex;
+  position: relative;
+  /*  overflow-x: hidden; */
+}
+
+.drivers-container-item-title {
+  top: 5%;
+  position: absolute;
+  width: 100%;
+  text-shadow: 1px 3px 10px black;
+  z-index: 100;
+}
+
+.drivers-container-item-seasondata {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  z-index: 100;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  text-shadow: 0 0 5px black;
+  font-size: 1.2rem;
+}
+
+.drivers-container-item-careerdata {
+  bottom: 0%;
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  border-top: 1px solid darkred;
+  padding-top: 2px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.drivers-image-left {
+  height: 100%;
+  width: 100%;
+  user-select: none;
+  object-fit: cover;
+}
+
+.drivers-image-right {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background-color: black;
+  user-select: none;
+  object-fit: cover;
+}
+
+/* end of driver grid display */
+
+/* Fetch api */
+
+.fetch-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #303032;
+}
+
+.fetch-container h2 {
+  text-shadow: 3px 1px 5px black;
+  margin-bottom: 0px;
+}
+
+.fetch-container span {
+  margin: 2px 0;
+}
+
+.fetch-container input {
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  font-size: 20px;
+  width: 200px;
+}
+
+.fetch-container input:focus {
+  background-color: rgb(248, 248, 248);
+}
+
+#info {
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+}
+
+#info p {
+  margin: 2px 0;
+}
+/* Container for driver divs */
+.output {
+  width: 100%;
+  max-width: 250px;
+}
+
+/* Every driver's info is displayed inside this individual div */
+.driver-data {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 0;
+}
+
+/* End fetch api */
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.footer p {
+  margin: 2px 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(206, 79, 79);
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 1046px) {
+  .drivers-container {
+    grid-template-columns: auto;
+  }
+}
+
+@media only screen and (max-width: 516px) {
+  .drivers-container-item {
+    width: 450px;
+  }
+
+  .drivers-image-right {
+    width: 225px;
+  }
+
+  .drivers-image-left {
+    width: 225px;
+  }
+
+  .fetch-container h2 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 462px) {
+  .drivers-container-item {
+    width: 400px;
+  }
+
+  .drivers-image-right {
+    width: 200px;
+  }
+  .drivers-image-left {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 408px) {
+  .drivers-container-item {
+    width: 350px;
+  }
+
+  .drivers-image-right {
+    width: 175px;
+  }
+  .drivers-image-left {
+    width: 175px;
+  }
+
+  .countdowns {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 372px) {
+  .drivers-container-item {
+    width: 300px;
+  }
+
+  .drivers-image-right {
+    width: 150px;
+  }
+
+  .drivers-image-left {
+    width: 150px;
+  }
+
+  .countdowns {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 337px) {
+  .drivers-container-item {
+    width: 250px;
+  }
+
+  .drivers-image-right {
+    width: 125px;
+  }
+
+  .drivers-image-left {
+    width: 125px;
+  }
+
+  .countdowns {
+    font-size: 0.7rem;
+  }
+}
